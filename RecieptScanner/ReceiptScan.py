@@ -9,4 +9,5 @@ res = rq.post(url,
                 data = {'api_key': 'TEST', 'recognizer': 'auto', 'ref_no': 'oct_python_123'},
                 files = {'file': open(receipt, 'rb')})
 
-json.dumps(json.loads(res.text))
+with open("response1.json", "w") as f:
+    json.dump(json.loads(res.text), f)
