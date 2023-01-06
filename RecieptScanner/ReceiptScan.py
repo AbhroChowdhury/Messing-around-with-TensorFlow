@@ -18,5 +18,6 @@ try:
 except FileNotFoundError:
     print("There seems to be something wrong. No json response file was generated from the input receipts")
 
-# we care about receipts key only
-print(data['receipts'])
+print(data['receipts'][0].keys()) # shows us al the keys in receipts
+items = data['receipts'][0]['items']
+print(items)
