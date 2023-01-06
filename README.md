@@ -1,2 +1,2 @@
-# Messing-around-with-TensorFlow
-TensorFlow projects that I am working on to expand my knowledge in machine learning
+# Messing-around-with-opencv
+Some computer vision projects that I'm working on for fun!
