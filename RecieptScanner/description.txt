@@ -1,0 +1,6 @@
+This is a simple python program that uses the Asprise OCR API to analyze receipts. Based on an input photo of a receipt, open character recognition will 
+be done to analyze the text in the receipt, and then we read into a dictionary containing all the relevant information, such as the store, items bought,
+total price, etc.
+
+NOTE: There is much more functionality that can be implemented with this concept; That can be found in another repository on my github.
+This directory includes simply the core functionality and was made solely with the intention of getting familiar with Asprise OCR API. 
